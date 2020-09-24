@@ -4,8 +4,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "@apollo/federation": "latest",
-    "apollo-server": "latest",
-    "graphql": "latest"
+    "fastify": "^2.13.0",
+    "fastify-gql": "github:frikille/fastify-gql#graphql-gateway"
   }
 }

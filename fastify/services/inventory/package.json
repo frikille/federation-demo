@@ -1,0 +1,10 @@
+{
+  "name": "inventory",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "fastify": "^2.13.0",
+    "fastify-gql": "github:frikille/fastify-gql#graphql-gateway"
+  }
+}
